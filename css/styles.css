@@ -1,0 +1,82 @@
+body {
+  margin: 0 auto;
+  background-color: #333;
+  max-width: 300px;
+  font-family: Roboto;
+  color: white;
+}
+label {
+  display: block !important;
+  height: 28px !important;
+}
+body.connected #step1 {
+  display: none;
+}
+#step1 {
+  display: inherit;
+  text-align: center;
+}
+body #step2 {
+  display: none;
+}
+body.connected #step2 {
+  display: inherit;
+}
+body.connecting #loading {
+  display: block;
+  text-align: center;
+  padding-top: 24px;
+}
+#title {
+  font-family: Roboto;
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  letter-spacing: -.02em;
+  text-align: center;
+  width: 100%;
+  padding: 35px 0;
+  padding-top: 280px;
+}
+#loading {
+  display: none;
+}
+.deviceName {
+  font-family: Roboto;
+  background: transparent;
+  border: 0;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  letter-spacing: -.02em;
+  text-align: center;
+  width: 100%;
+  outline: none;
+  margin: 20px 0;
+}
+#steps {
+  display: block;
+  padding-bottom: 100%;
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: #00BCD4; 
+}
+.steps-amount{
+  font-family: Roboto;
+  background: transparent;
+  border: 0;
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+  letter-spacing: -.02em;
+  text-align: center;
+  width: 100%;
+  outline: none;
+  vertical-align: middle;
+  line-height: 300px;
+}
+#connect {
+  color: white;
+  background-color: #00BCD4;
+  width: 75%;
+  height: 40px;
+  font-weight: bold;
+}

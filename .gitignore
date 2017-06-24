@@ -1,0 +1,4 @@
+/firebase/*
+.firebaserc
+database.rules.json
+firebase.json

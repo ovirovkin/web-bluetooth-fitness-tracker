@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Mi Band</title>
+    <link rel="icon" sizes="192x192" href="icons/favicon.png">
+
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.green-light_green.min.css">
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="manifest" href="manifest.json">
+  </head>
+  <body id="state">
+    <div id="step1">
+      <div id="title">Mi Band Demo</div>
+      <button id="connect" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accen">CONNECT</button>
+    </div>
+    <div id="step2">
+      <input class="deviceName" type="text" maxlength="20">
+      <div id="steps">
+        <input class="steps-amount" type="text" maxlength="20"></input>
+      </div>
+      <div id="loading">
+        <div class="mdl-spinner mdl-spinner--single-color mdl-js-spinner is-active"></div>
+      </div>
+    </div>
+    <script src="js/miBand.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
