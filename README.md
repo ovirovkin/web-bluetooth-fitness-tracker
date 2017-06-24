@@ -1,6 +1,6 @@
 Mi band fitness tracker Web Bluetooth demo
 ==========================================
 
-Available at 
+Available at https://mi-band-965ea.firebaseapp.com
 
-This web app demonstrates the use of the Web Bluetooth API for getting characteristicks like amount of steps from a nearby bluetooth device and also demonstrates a work of service worker.
+This Progressive Web App demonstrates the use of the Web Bluetooth API for getting characteristics like amount of steps from a nearby bluetooth devices.
